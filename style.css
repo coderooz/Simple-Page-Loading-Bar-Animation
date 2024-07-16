@@ -1,0 +1,48 @@
+/* Reset some default styles */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Center the content vertically and horizontally */
+html, body {
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #f0f0f0;
+}
+
+.container {
+text-align: center;
+}
+
+h1 {
+font-family: Arial, sans-serif;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.loader-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    position: relative;
+  }
+  
+  .loader-bar::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 100%;
+    background-color: #3498db;
+    position: absolute;
+    animation: progress 2s ease-in-out infinite;
+  }
+  
+  @keyframes progress {
+    0% { width: 0; }
+    50% { width: 50%; }
+    100% { width: 100%; }
+  }
