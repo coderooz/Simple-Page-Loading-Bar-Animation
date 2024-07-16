@@ -103,7 +103,7 @@ animation: progress 2s ease-in-out infinite;
 
 ## Credits
 
-- CSS spinner animation inspired by various online examples.
+- CSS Loading animation inspired by various online examples.
 - Designed and implemented by Coderooz [Ranit Saha].
 
 ## License
